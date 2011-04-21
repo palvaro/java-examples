@@ -36,4 +36,24 @@ interface BaseInterface {
   void packageMethod();
 
   public void publicMethod();
+
+  /**
+   * modifier private static not allowed here
+   */
+//  private static void privateStaticMethod();
+
+  /**
+   * modifier protected static not allowed here
+   */
+//  protected static void protectedStaticMethod();
+
+  /**
+   * modifier static not allowed here
+   */
+//  static void packageStaticMethod();
+
+  /**
+   * modifier static not allowed here
+   */
+//  public static void publicStaticMethod();
 }

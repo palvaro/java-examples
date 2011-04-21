@@ -18,4 +18,12 @@ class BaseClass {
   void packageMethod() { }
 
   public void publicMethod() { }
+
+  private static void privateStaticMethod() { }
+
+  protected static void protectedStaticMethod() { }
+
+  static void packageStaticMethod() { }
+
+  public static void publicStaticMethod() { }
 }
